@@ -1,0 +1,44 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "MMZAP PRO",
+  "version": "1.6.8",
+  "description": "Versão Premium do MMZap",
+  "permissions": [
+    "storage",
+    "proxy", 
+    "privacy",
+    "webRequest", 
+    "webRequestAuthProvider" 
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service_worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [{
+    "resources": [
+      "wppconnect-wa.js",
+      "execute-script.js",
+      "inject.js",
+      "spoofer.js",
+      "icon.png"
+    ],
+    "matches": ["https://web.whatsapp.com/*"]
+  }],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
