@@ -1,0 +1,236 @@
+{
+  "chips": [
+    {
+      "phoneNumber": "558994636946",
+      "lidJid": "192483824763008@lid",
+      "totalMessagesSent": 9,
+      "totalMessagesReceived": 1,
+      "lastActivity": "2026-05-19T19:50:38.902Z"
+    },
+    {
+      "phoneNumber": "556196037036",
+      "lidJid": "46227001467034@lid",
+      "totalMessagesSent": 4,
+      "totalMessagesReceived": 0,
+      "lastActivity": "2026-05-19T16:41:48.049Z"
+    },
+    {
+      "phoneNumber": "120363305020211669",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 2,
+      "lastActivity": "2026-05-19T19:47:57.163Z"
+    },
+    {
+      "phoneNumber": "120363425229981325",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 2,
+      "lastActivity": "2026-05-19T16:42:34.013Z"
+    },
+    {
+      "phoneNumber": "50698582499561",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 0,
+      "lastActivity": "2026-05-19T16:38:39.182Z"
+    },
+    {
+      "phoneNumber": "120363403964396942",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 0,
+      "lastActivity": "2026-05-19T16:42:53.368Z"
+    },
+    {
+      "phoneNumber": "15613208754-1623354203",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 1,
+      "lastActivity": "2026-05-19T19:46:16.940Z"
+    },
+    {
+      "phoneNumber": "120363408717329854",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 2,
+      "lastActivity": "2026-05-19T19:47:12.880Z"
+    },
+    {
+      "phoneNumber": "120363406369085833",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 1,
+      "lastActivity": "2026-05-19T16:41:12.281Z"
+    },
+    {
+      "phoneNumber": "120363170212549835",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 0,
+      "lastActivity": "2026-05-19T16:40:12.491Z"
+    },
+    {
+      "phoneNumber": "120363423542751124",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 1,
+      "lastActivity": "2026-05-19T19:50:38.896Z"
+    },
+    {
+      "phoneNumber": "85955314733220",
+      "lidJid": null,
+      "totalMessagesSent": 0,
+      "totalMessagesReceived": 0,
+      "lastActivity": "2026-05-19T16:41:22.881Z"
+    }
+  ],
+  "activityLog": [
+    {
+      "timestamp": "2026-05-19T19:50:38.902Z",
+      "type": "heartbeat",
+      "from": "558994636946",
+      "message": "Chip 558994636946 reportou atividade"
+    },
+    {
+      "timestamp": "2026-05-19T19:50:38.896Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "120363423542751124",
+      "phrase": "Salve! Já te respondo, calma",
+      "message": "Chip 558994636946 enviou mensagem para Chip 120363423542751124"
+    },
+    {
+      "timestamp": "2026-05-19T19:47:57.168Z",
+      "type": "heartbeat",
+      "from": "558994636946",
+      "message": "Chip 558994636946 reportou atividade"
+    },
+    {
+      "timestamp": "2026-05-19T19:47:57.163Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "120363305020211669",
+      "phrase": "Boa noite! Anotei aqui, depois te falo",
+      "message": "Chip 558994636946 enviou mensagem para Chip 120363305020211669"
+    },
+    {
+      "timestamp": "2026-05-19T19:47:12.883Z",
+      "type": "heartbeat",
+      "from": "558994636946",
+      "message": "Chip 558994636946 reportou atividade"
+    },
+    {
+      "timestamp": "2026-05-19T19:47:12.880Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "120363408717329854",
+      "phrase": "Vc tá no escritório?",
+      "message": "Chip 558994636946 enviou mensagem para Chip 120363408717329854"
+    },
+    {
+      "timestamp": "2026-05-19T19:46:16.944Z",
+      "type": "heartbeat",
+      "from": "558994636946",
+      "message": "Chip 558994636946 reportou atividade"
+    },
+    {
+      "timestamp": "2026-05-19T19:46:16.940Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "15613208754-1623354203",
+      "phrase": "Pode deixar que vejo",
+      "message": "Chip 558994636946 enviou mensagem para Chip 15613208754-1623354203"
+    },
+    {
+      "timestamp": "2026-05-19T16:41:48.049Z",
+      "type": "message",
+      "from": "556196037036",
+      "to": "120363425229981325",
+      "phrase": "Boa tarde, tudo bem?",
+      "message": "Chip 556196037036 enviou mensagem para Chip 120363425229981325"
+    },
+    {
+      "timestamp": "2026-05-19T16:40:39.749Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "120363408717329854",
+      "phrase": "Tô no escritório agora",
+      "message": "Chip 558994636946 enviou mensagem para Chip 120363408717329854"
+    },
+    {
+      "timestamp": "2026-05-19T16:40:37.641Z",
+      "type": "message",
+      "from": "556196037036",
+      "to": "120363406369085833",
+      "phrase": "Hoje tá cansativo viu",
+      "message": "Chip 556196037036 enviou mensagem para Chip 120363406369085833"
+    },
+    {
+      "timestamp": "2026-05-19T16:39:10.118Z",
+      "type": "message",
+      "from": "556196037036",
+      "to": "120363305020211669",
+      "phrase": "Vc tá em casa?",
+      "message": "Chip 556196037036 enviou mensagem para Chip 120363305020211669"
+    },
+    {
+      "timestamp": "2026-05-19T16:37:50.225Z",
+      "type": "heartbeat",
+      "from": "558994636946",
+      "message": "Chip 558994636946 reportou atividade"
+    },
+    {
+      "timestamp": "2026-05-19T16:37:50.222Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "120363425229981325",
+      "phrase": "Tô no carro agora",
+      "message": "Chip 558994636946 enviou mensagem para Chip 120363425229981325"
+    },
+    {
+      "timestamp": "2026-05-19T16:37:03.511Z",
+      "type": "heartbeat",
+      "from": "556196037036",
+      "message": "Chip 556196037036 reportou atividade"
+    },
+    {
+      "timestamp": "2026-05-19T16:37:03.509Z",
+      "type": "message",
+      "from": "556196037036",
+      "to": "558994636946",
+      "phrase": "Hoje tá tranquilo viu",
+      "message": "Chip 556196037036 enviou mensagem para Chip 558994636946"
+    },
+    {
+      "timestamp": "2026-05-19T16:34:31.561Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "5511942675488",
+      "phrase": "Valeu demais",
+      "message": "Chip 558994636946 enviou mensagem para Chip 5511942675488"
+    },
+    {
+      "timestamp": "2026-05-19T16:31:53.754Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "5511942675488",
+      "phrase": "Bom dia! Já te respondo, calma",
+      "message": "Chip 558994636946 enviou mensagem para Chip 5511942675488"
+    },
+    {
+      "timestamp": "2026-05-19T16:29:15.558Z",
+      "type": "heartbeat",
+      "from": "558994636946",
+      "message": "Chip 558994636946 reportou atividade"
+    },
+    {
+      "timestamp": "2026-05-19T16:29:15.552Z",
+      "type": "message",
+      "from": "558994636946",
+      "to": "5511942675488",
+      "phrase": "Já tô indo aí",
+      "message": "Chip 558994636946 enviou mensagem para Chip 5511942675488"
+    }
+  ]
+}

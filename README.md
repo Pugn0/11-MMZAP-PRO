@@ -8,7 +8,7 @@ Este documento resume o progresso da análise e discussão sobre o projeto MMZAP
 
 ### Estrutura do Projeto
 - Extensão do Chrome/WhatsApp com arquivos como `manifest.json`, `service_worker.js`, `license-manager.js`, etc.
-- Gerenciamento de licenças via API remota em `https://controle.dablioweb.com/api`.
+- Gerenciamento de licenças via API local em `http://localhost:3000` (servidor Express incluído em `server.js`).
 
 ### Rede e Endpoints Principais
 1. **Ativação de Licença**: `POST /activate_license`

@@ -1,6 +1,7 @@
 class LicenseManager {
+
     constructor() {
-        this.apiBaseUrl = "https://controle.dablioweb.com/api";
+        this.apiBaseUrl = "http://localhost:3000";
         this.apiKey = "DCE5D227FFC195E5CF57";
         this.productId = "mmzap_pro";
         this.licenseStorageKey = "mmzap_license_data";
@@ -255,7 +256,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
                 const manifestData = chrome.runtime.getManifest();
                 const version = manifestData.version;
                 
-                fetch("https://api.growsoft.io/maturador_extensao/get_message", { 
+                fetch("http://localhost:3000/maturador_extensao/get_message", {
                      method: "POST",
                      headers: { 
                          "Content-Type": "application/json",
@@ -276,7 +277,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
             const version = manifestData.version;
             
 
-            fetch("https://api.growsoft.io/maturador_extensao/request", {
+            fetch("http://localhost:3000/maturador_extensao/request", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

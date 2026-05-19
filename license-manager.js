@@ -1,7 +1,7 @@
 class LicenseManager {
     constructor() {
         this.licenseStorageKey = "mmzap_license_data"; // Mudamos para chave de objeto
-        this.apiBaseUrl = "https://controle.dablioweb.com/api";
+        this.apiBaseUrl = "http://localhost:3000";
         this.apiKey = "DCE5D227FFC195E5CF57";
         this.productId = "mmzap_pro";
         this.userIP = null;
